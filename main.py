@@ -44,7 +44,7 @@ from Cups_UI import Cups
 #     ui = UI(Cups(m.initial, m.num_cups, m.capacity, None, m.path, m.Color)).run()
 m = WaterSortSolver("./testcase/testcase3"+ '.txt')
 m.search('A_Star')
-ui = UI(Cups(m.initial, m.num_cups, m.capacity, None, m.path, m.Color)).run()
+# ui = UI(Cups(m.initial, m.num_cups, m.capacity, None, m.path, m.Color)).run()
 
 
 
